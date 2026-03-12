@@ -1,14 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Work</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreeram N Hirani | Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #0d1117; color: #c9d1d9; }
+        header { background-color: #161b22; padding: 2rem 0; text-align: center; border-bottom: 1px solid #30363d; }
+        header h1 { margin: 0; color: #58a6ff; }
+        header p { margin: 5px 0 0; color: #8b949e; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        section { margin-bottom: 2rem; background: #161b22; padding: 20px; border-radius: 8px; border: 1px solid #30363d; }
+        h2 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        h3 { color: #f0f6fc; margin-bottom: 5px; }
+        .grid-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+        .project { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #30363d; }
+        .project:last-child { border-bottom: none; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { margin-top: 5px; padding-left: 20px; }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My Work Showcase</h1>
-  <p>This page highlights my academic and project work.</p>
- 
-  <h2>Contact</h2>
-  <p>Email: <!--email_off-->24f2001743@ds.study.iitm.ac.in<!--/email_off--></p>
+
+    <header>
+        <h1>Shreeram N Hirani</h1>
+        <p>B.Tech ECE Student | Data Science Enthusiast</p>
+        <p><a href="mailto:shreeramhirani@gmail.com">shreeramhirani@gmail.com</a> | (+91) 9429449884</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div>
+                <h3>Birla Vishvakarma Mahavidyalaya</h3>
+                <ul>
+                    <li>B.Tech - Electronics and Communication Engineering (CGPA: 9.16) | 2024 - Pursuing</li>
+                    <li>Minor in Data Science | 2026 - Pursuing</li>
+                </ul>
+            </div>
+            <div>
+                <h3>IIT Madras (Online Degree Program)</h3>
+                <ul>
+                    <li>Diploma in Programming / Data Science (CGPA: 8.50) | 2024 - Pursuing</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="grid-list">
+                <div>
+                    <h3>Programming</h3>
+                    <p>Python, C, C++ (OOP), MySQL, Bash, Verilog HDL, 8085 Assembly</p>
+                </div>
+                <div>
+                    <h3>Libraries & Frameworks</h3>
+                    <p>NumPy, Pandas, Matplotlib, SeaBorn, Scipy</p>
+                </div>
+                <div>
+                    <h3>Embedded Systems</h3>
+                    <p>DLD, FPGA (BASYS3), Microprocessors (8085), Arduino, ESP32, Raspberry Pi</p>
+                </div>
+                <div>
+                    <h3>Tools</h3>
+                    <p>MATLAB, LTSpice, Vivado, GitHub, VS Code</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Academic Projects</h2>
+            <div class="project">
+                <h3>Data Analyst Agent</h3>
+                <p>A full-stack, autonomous data analyst agent.</p>
+                <p><em>Link: [Add your @DAA final GitHub link here]</em></p>
+            </div>
+            <div class="project">
+                <h3>GyaanSetu - Advanced AI Assistant</h3>
+                <p>A sophisticated, feature-rich AI assistant chatbot.</p>
+                <p><em>Link: [Add your @GS chatbot GitHub link here]</em></p>
+            </div>
+            <div class="project">
+                <h3>GyaanSetu Deck: AI-Powered PPTX Generator</h3>
+                <p>Automatically generates presentations using LLM models.</p>
+                <p><em>Link: [Add your @GS_pptx GitHub link here]</em></p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Technical & Activity Experience</h2>
+            <ul>
+                <li>Participated in technical problem-solving competitions like Genesis and Udaan at BVM Engineering College.</li>
+                <li>Active participant in Expert Talk Sessions and Hands-on Workshops covering embedded systems and programming tools.</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements & Interests</h2>
+            <ul>
+                <li>Project selected for the National Children's Science Congress (NCSC), 2020.</li>
+                <li>School Topper (1st Rank) in Class X and Class XII (PCM).</li>
+                <li><strong>Interests:</strong> Large Language Models (LLMs), Technology Trends, Horse Riding, Outdoor Sports.</li>
+            </ul>
+        </section>
+
+    </div>
 </body>
 </html>
